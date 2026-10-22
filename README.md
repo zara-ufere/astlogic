@@ -1,5 +1,7 @@
 # astlogic
 
+![CI](https://github.com/zara-ufere/astlogic/actions/workflows/ci.yml/badge.svg)
+
 Checks the structure of Python programs against rubrics written in Prolog, without ever running the code.
 
 Output-based autograders only ask whether a program prints the right answer. Two students can pass with completely different implementations, so a loop assignment can be satisfied by hard-coded output. astlogic asks a different question: does the program use the structures the assignment is about, such as a loop bounded by the parameter, a base case and a recursive case, or while > for > if nesting?
